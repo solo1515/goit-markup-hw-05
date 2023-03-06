@@ -1,0 +1,151 @@
+:root {
+    --brand-color: #2E2F42;
+    --desc-color: #434455;
+    --main-color:#ffffff;
+}
+body{
+font-family: 'Roboto', normal;
+color:var(--brand-color);
+}
+ul{
+    list-style-type:none;
+}
+/* logo */
+.logo-name span {
+    color: #4D5AE5;
+}
+
+.logo-name {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 1.3em;
+    letter-spacing: 0.03em;
+    color: var(--brand-color);
+}
+.down{
+    color:white;
+}
+
+/* header-style */
+.main-head{
+    background-color:white;
+}
+
+.top-menu {
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    line-height :1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
+}
+.top-menu:hover {
+    color: #434455;
+
+}
+.contact{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color:var(--desc-color);
+}
+.contact:hover {
+    color: #4D5AE5;
+   
+} 
+.top-menu:focus {
+    color:#434455;
+
+}
+
+.contact:focus {
+    color: #4D5AE5;
+}
+.footer-desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#E7E9FC;
+}
+/* buttons */
+
+.button-order{
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.04em;
+}
+.button-order:hover {
+    background: #4D5AE5;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 4px;
+}
+.button-menu{
+    background: #F4F4FD;
+    color: #4D5AE5;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button-menu:hover{
+    background: #4D5AE5;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color:white;
+}
+
+/* text-decor */
+
+h1{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color:white;
+}
+h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+.title-name{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--desc-color);
+}
+
+
+.team{
+    background: #F4F4FD;
+}
+.footer{
+    background-color: var(--brand-color);
+}
+.descriptions {
+    background-color: var(--main-color);
+}
+
+.work {
+    background-color: var(--main-color);
+}
+
+.main {
+    background-color: var(--main-color);
+}
